@@ -56,7 +56,7 @@ export default function App() {
 
       {loading && (
         <div className="loader">
-          <img src="/logo.png" alt="VEY RATHON" />
+          <img src={import.meta.env.BASE_URL + "logo.png"} alt="VEY RATHON" />
           <div className="loader-line"></div>
           <p>BEYOND ORDINARY</p>
         </div>
@@ -65,7 +65,7 @@ export default function App() {
       <main className={loading ? 'site hidden' : 'site visible'}>
         <nav className="navbar">
           <a href="#home" className="logo" onClick={closeMenu}>
-            <img src="/logo.png" alt="VEY RATHON" />
+            <img src={import.meta.env.BASE_URL + "logo.png"} alt="VEY RATHON" />
           </a>
 
           <div className="nav-links">
