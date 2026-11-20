@@ -56,7 +56,7 @@ export default function App() {
 
       {loading && (
         <div className="loader">
-          <img src={import.meta.env.BASE_URL + "logo.png"} alt="VEY RATHON" />
+          <img src={import.meta.env.BASE_URL + "logo.png"} alt="SOVEREIGNABHII" />
           <div className="loader-line"></div>
           <p>BEYOND ORDINARY</p>
         </div>
@@ -65,7 +65,7 @@ export default function App() {
       <main className={loading ? 'site hidden' : 'site visible'}>
         <nav className="navbar">
           <a href="#home" className="logo" onClick={closeMenu}>
-            <img src={import.meta.env.BASE_URL + "logo.png"} alt="VEY RATHON" />
+            <img src={import.meta.env.BASE_URL + "logo.png"} alt="SOVEREIGNABHII" />
           </a>
 
           <div className="nav-links">
@@ -88,7 +88,7 @@ export default function App() {
           <a href="#home" onClick={closeMenu}>HOME</a>
           <a href="#about" onClick={closeMenu}>ABOUT</a>
           <a href="#contact" onClick={closeMenu}>CONTACT</a>
-          <p>VEY RATHON — BEYOND ORDINARY</p>
+          <p>SOVEREIGNABHII — BEYOND ORDINARY</p>
         </div>
 
         <section className="hero" id="home">
@@ -116,7 +116,7 @@ export default function App() {
             <p className="about-desc">
               A vision beyond boundaries.
               An identity beyond definitions.
-              This is VEY RATHON.
+              This is SOVEREIGNABHII.
             </p>
           </div>
         </section>
@@ -130,8 +130,8 @@ export default function App() {
         </section>
 
         <footer>
-          <div>VEY RATHON.</div>
-          <p>© 2026 VEY RATHON. ALL RIGHTS RESERVED.</p>
+          <div>SOVEREIGNABHII.</div>
+          <p>© 2026 SOVEREIGNABHII. ALL RIGHTS RESERVED.</p>
         </footer>
       </main>
     </>
