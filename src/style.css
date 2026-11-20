@@ -905,3 +905,313 @@ html {
     animation: none;
   }
 }
+
+/* SOVEREIGNABHII QUOTES */
+.quotes-section {
+  padding: 120px 8%;
+  background: #090909;
+  color: #eee;
+}
+
+.quotes-heading {
+  margin-bottom: 55px;
+}
+
+.quotes-heading h2,
+.admin-container > h1 {
+  font-size: clamp(42px, 7vw, 85px);
+  line-height: 1;
+  margin: 20px 0;
+}
+
+.quotes-heading h2 span,
+.admin-container h1 span {
+  color: #999;
+}
+
+.quotes-heading > p:last-child {
+  color: #888;
+  margin-top: 20px;
+}
+
+.daily-quote {
+  padding: 40px;
+  margin-bottom: 45px;
+  border: 1px solid #383838;
+  background: linear-gradient(135deg, #151515, #090909);
+}
+
+.daily-quote blockquote {
+  font-size: clamp(22px, 4vw, 38px);
+  line-height: 1.4;
+  margin: 25px 0;
+}
+
+.quote-author {
+  color: #999;
+}
+
+.category-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 35px;
+}
+
+.category-list button,
+.quote-card button,
+.admin-item-actions button {
+  background: transparent;
+  color: #aaa;
+  border: 1px solid #444;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: .25s;
+}
+
+.category-list button.active,
+.category-list button:hover,
+.quote-card button:hover,
+.admin-item-actions button:hover {
+  background: #eee;
+  color: #111;
+  border-color: #eee;
+}
+
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.quote-card {
+  border: 1px solid #303030;
+  padding: 28px;
+  background: #101010;
+  display: flex;
+  flex-direction: column;
+  min-height: 250px;
+}
+
+.quote-mark {
+  font-size: 50px;
+  color: #888;
+  line-height: 1;
+}
+
+.quote-card > p {
+  font-size: 19px;
+  line-height: 1.6;
+  flex: 1;
+}
+
+.quote-card > small {
+  color: #999;
+  margin: 20px 0;
+}
+
+.quote-card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+}
+
+.quote-card-bottom > span {
+  color: #888;
+  font-size: 11px;
+}
+
+.quote-card-bottom > div {
+  display: flex;
+  gap: 7px;
+}
+
+.quote-card button {
+  padding: 7px 10px;
+  font-size: 10px;
+}
+
+.empty-quotes {
+  color: #888;
+  padding: 30px 0;
+}
+
+.quote-feedback {
+  color: #aaa;
+  margin-top: 20px;
+}
+
+/* PRIVATE ADMIN PANEL */
+.admin-page {
+  min-height: 100vh;
+  background: #090909;
+  color: #eee;
+  padding: 30px 7%;
+}
+
+.admin-top,
+.admin-dashboard-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.admin-top a,
+.admin-dashboard-heading button {
+  color: #aaa;
+  text-decoration: none;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.admin-brand {
+  font-weight: bold;
+  color: #eee !important;
+}
+
+.admin-container {
+  max-width: 850px;
+  margin: 90px auto;
+}
+
+.admin-container > h1 {
+  margin-bottom: 45px;
+}
+
+.admin-form {
+  padding: 30px;
+  border: 1px solid #333;
+  background: #101010;
+  margin: 30px 0;
+}
+
+.admin-form h2,
+.admin-quote-list h2 {
+  font-size: 19px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.admin-form input:not([type="checkbox"]),
+.admin-form textarea,
+.admin-form select {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0;
+  color: #eee;
+  background: #080808;
+  border: 1px solid #383838;
+  outline: none;
+  font: inherit;
+}
+
+.admin-form textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.admin-form button,
+.admin-actions button,
+.logout-btn {
+  background: #eee;
+  color: #111;
+  border: 0;
+  padding: 14px 22px;
+  cursor: pointer;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+
+.admin-form button:disabled {
+  opacity: .5;
+}
+
+.publish-check {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #aaa;
+  margin-top: 15px;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.admin-actions .cancel-btn,
+.admin-dashboard-heading .logout-btn {
+  background: transparent;
+  color: #eee;
+  border: 1px solid #555;
+}
+
+.admin-message {
+  color: #bbb;
+  margin-top: 18px;
+  overflow-wrap: anywhere;
+}
+
+.admin-quote-list {
+  margin-top: 55px;
+}
+
+.admin-quote-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+  border-bottom: 1px solid #333;
+}
+
+.admin-quote-item p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.admin-quote-item small {
+  color: #888;
+}
+
+.admin-item-actions {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.admin-item-actions button {
+  font-size: 10px;
+}
+
+@media (max-width: 600px) {
+  .quotes-section {
+    padding: 85px 6%;
+  }
+
+  .daily-quote {
+    padding: 25px;
+  }
+
+  .admin-page {
+    padding: 22px 5%;
+  }
+
+  .admin-container {
+    margin: 65px auto;
+  }
+
+  .admin-form {
+    padding: 20px;
+  }
+
+  .admin-quote-item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
